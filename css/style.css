@@ -1,0 +1,39 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body,html {
+    height: 100%;
+    line-height: 1;
+}
+
+@media(min-width: 767px) {
+    
+}
